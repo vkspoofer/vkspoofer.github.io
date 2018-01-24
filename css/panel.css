@@ -1,0 +1,120 @@
+* {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "Open Sans";
+}
+
+html, body {
+    width: 100%;
+	min-width: 320px;
+    height: 100%;
+}
+
+body {
+	background:url(bg.jpg) no-repeat;
+	background-size:cover;
+}
+
+.auth {
+    display: block;
+    margin: 110px auto;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+.auth .head {
+    color: rgb(0,0,0);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 0;
+    background: rgb(255, 255,255);
+}
+.auth .text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.auth input[type='text'], .auth input[type='password'] {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-weight: 100;
+    font-size: 13px;
+    padding: 4px 10px;
+    width: 150px;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255,255);
+}
+
+input[type='submit'] {
+    font-size: 12px;
+    display: block;
+    background: rgb(255, 255,255);
+    text-decoration: none;
+    color:  rgb(0,0,0);
+    cursor: pointer;
+    text-shadow: none;
+    font-weight: 700;
+    padding: 6px 12px;
+    text-transform: uppercase;
+    margin: 25px auto;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+}
+
+input[name='sign'],input[name='id'],input[name='tp'] {
+	display: none;
+}
+
+.centB {
+	display: block;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(65, 201, 228);
+    width: 195px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+	margin: 30px auto 0 auto;
+}
+
+.thead {
+    background: rgb(255,255,255);
+}
+
+.tbody {	
+    background: rgba(0,0,0,0.3);
+    color: rgb(255,255,255);
+}
+
+.tbody a {
+    color: rgb(255,255,255);
+}
+
+td {
+	padding: 2px 4px;
+}
